@@ -3,20 +3,20 @@
 main() 
 {
     char str[100],*ptr;
-    int count;
+    int c;
     
     printf("Enter any string:-");
     
     gets(str);
     ptr=str;
-    count=0;
+    c=0;
     
-    while (*ptr!='\0') 
+    while (*ptr!=NULL) 
 	{
-        count++;
+        c++;
         ptr++;
     }
     
-    printf("The length of the string is:-%d",count);
+    printf("The length of the string is:-%d",c);
     
 }
