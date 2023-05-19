@@ -2,7 +2,7 @@
 
 //C program to reverse an array using pointers.
 
-int main()  
+main()  
 {  
     int n,arr[n],i; 
 	 
